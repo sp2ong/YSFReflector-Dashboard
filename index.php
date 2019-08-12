@@ -83,7 +83,7 @@ if (defined("SHOWOLDMHEARD")) {
 <?php
 $lastReload = new DateTime();
 $lastReload->setTimezone(new DateTimeZone(TIMEZONE));
-echo "YSFReflector-Dashboard V ".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
+echo "YSFReflector-Dashboard V ".VERSION." - Modified by SP2ONG | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
 $time = microtime();
 $time = explode(' ', $time);
 $time = $time[1] + $time[0];
