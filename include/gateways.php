@@ -9,7 +9,7 @@
   	<thead>
     <tr>
       <th>Czas (<?php echo TIMEZONE;?>)</th>
-      <th>Zank</th>
+      <th>Znak</th>
     </tr>
     </thead>
     <tbody>
