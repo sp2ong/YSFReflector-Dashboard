@@ -42,7 +42,7 @@ for ($i = 0; $i < count($allHeard); $i++) {
   </div>
 <script>
     $(document).ready(function(){
-      $('#lh').dataTable( {
+      $('#allheard').dataTable( {
         language: {
     "sProcessing":   "Przetwarzanie...",
     "sLengthMenu":   "Pokaż _MENU_ pozycji",
