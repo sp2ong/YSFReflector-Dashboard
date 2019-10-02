@@ -33,7 +33,7 @@
   </div>
 <script>
     $(document).ready(function(){
-      $('#lh').dataTable( {
+      $('#gateways').dataTable( {
         language: {
     "sProcessing":   "Przetwarzanie...",
     "sLengthMenu":   "Pokaż _MENU_ pozycji",
