@@ -62,7 +62,7 @@ include "version.php";
   </head>
   <body style="font: 10pt arial, sans-serif;">
 <center> 
-  <h3><p>.:&nbsp;&nbsp;<font color=brown><b> <?php echo getConfigItem("Info", "Name", $configs); ?> </b></font> YSF Reflector&nbsp;&nbsp;:.</p></h3>
+  <h3><p>.:&nbsp;&nbsp;<font color=brown><b><?php echo getConfigItem("Info", "Name", $configs); ?></b></font> YSF Reflector&nbsp;&nbsp;:.</p></h3>
 </center>
 <center>
 <fieldset style="box-shadow:0 10px 10px #999;padding: 10px !important;margin: 15px !important;border:0.5px solid gray !important;background-color:#e0e0e0e0;width:1050px;text-align:left;margin-left:15px;margin-right:15px;margin-top:10px;border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
