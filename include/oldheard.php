@@ -40,7 +40,7 @@ for ($i = 0; $i < count($oldallHeard); $i++) {
   </div>
 <script>
     $(document).ready(function(){
-      $('#oldheard').dataTable( {
+      $('#oldallHeard').dataTable( {
         language: {
     "sProcessing":   "Przetwarzanie...",
     "sLengthMenu":   "Pokaż _MENU_ pozycji",
