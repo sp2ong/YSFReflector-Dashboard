@@ -54,7 +54,7 @@ include "version.php";
  }
 .panel-default>.panel-heading-custom3 {
   font: 12pt arial, sans-serif; 
-   background:#dfd27c;
+   background:#9dc209;
     color: black;
     border-color: #ddd;
  }
@@ -66,6 +66,8 @@ include "version.php";
   <h2><p><small>.: YSFReflector-Dashboard for reflector <font color=brown><b> <?php echo getConfigItem("Info", "Name", $configs); ?> </b></font> :.</p>
    .: <a href=http://80.211.208.227:8000>XLX260 Reflector HBLink</a> :.</small></h2>
 </center>
+<center>
+<fieldset style="box-shadow:0 10px 10px #999;padding: 10px !important;margin: 15px !important;border:0.5px solid gray !important;background-color:#e0e0e0e0;width:1050px;text-align:left;margin-left:15px;margin-right:15px;margin-top:10px;border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
 <?php
 checkSetup();
 // Here you can feel free to disable info-sections by commenting out with // before include
@@ -83,14 +85,14 @@ if (defined("SHOWOLDMHEARD")) {
 <?php
 $lastReload = new DateTime();
 $lastReload->setTimezone(new DateTimeZone(TIMEZONE));
-echo "YSFReflector-Dashboard V ".VERSION." - Modified by SP2ONG | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
+echo "<center>YSFReflector-Dashboard V ".VERSION." - Modified by SP2ONG | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
 $time = microtime();
 $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $finish = $time;
 $total_time = round(($finish - $start), 4);
 echo '<!--Page generated in '.$total_time.' seconds.-->';	
-?> | get your own at: <a href="https://github.com/dg9vh/YSFReflector-Dashboard">https://github.com/dg9vh/YSFReflector-Dashboard</a>
+?> <br>Get your own at: <a href="https://github.com/dg9vh/YSFReflector-Dashboard">https://github.com/dg9vh/YSFReflector-Dashboard</a></center>
 	</div>
   </body>
 </html>
