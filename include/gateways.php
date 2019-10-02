@@ -34,6 +34,15 @@
   <script>
     $(document).ready(function(){
       $('#gateways').dataTable( {
+	        <script>
+    $(document).ready(function(){
+      $('#lh').dataTable( {
+        language: { url: 'http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Polish.json'},
+        "aaSorting": [[0,'desc']]
+      } );
+    });
+   </script>
+
         "aaSorting": [[1,'asc']]
       } );
     });
