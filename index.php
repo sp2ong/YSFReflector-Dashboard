@@ -60,6 +60,7 @@ include "version.php";
     color: black;
     border-color: #ddd;
  }
+.dataTables_filter input {margin-right: 10px; }
 </style>
   </head>
   <body style="font: 10pt arial, sans-serif;">
