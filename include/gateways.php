@@ -36,11 +36,11 @@
       $('#gateways').dataTable( {
         language: {
     "sProcessing":   "Przetwarzanie...",
-    "sLengthMenu":   "Pokaż _MENU_ pozycji",
+    "sLengthMenu":   "&nbsp;&nbsp;Pokaż _MENU_ pozycji",
     "sZeroRecords":  "Nie znaleziono pasujących pozycji",
     "sInfoThousands":  " ",
-    "sInfo":         "Pozycje od _START_ do _END_ z _TOTAL_ łącznie",
-    "sInfoEmpty":    "Pozycji 0 z 0 dostępnych",
+    "sInfo":         "&nbsp;&nbsp;Pozycje od _START_ do _END_ z _TOTAL_ łącznie",
+    "sInfoEmpty":    "&nbsp;&nbsp;Pozycji 0 z 0 dostępnych",
     "sInfoFiltered": "(filtrowanie spośród _MAX_ dostępnych pozycji)",
     "sInfoPostFix":  "",
     "sSearch":       "Szukaj:",
