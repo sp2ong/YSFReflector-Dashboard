@@ -13,7 +13,7 @@ include "include/init.php";
 include "version.php";
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,9 +62,7 @@ include "version.php";
   </head>
   <body>
 <center> 
-<img src="<?php echo LOGO ?>" width="250px" height=64 style="width:250px; border-radius:10px;box-shadow:2px 2px 2px #808080; padding:1px;background:#FFFFFF;border:1px solid #808080;" border="0" hspace="10" vspace="10" align="absmiddle">
-  <h2><p><small>.: YSFReflector-Dashboard for reflector <font color=brown><b> <?php echo getConfigItem("Info", "Name", $configs); ?> </b></font> :.</p>
-   .: <a href=http://80.211.208.227:8000>XLX260 Reflector HBLink</a> :.</small></h2>
+  <h3><p>.:&nbsp;&nbsp;<font color=brown><b> <?php echo getConfigItem("Info", "Name", $configs); ?> </b></font> YSF Reflector&nbsp;&nbsp;:.</p></h3>
 </center>
 <center>
 <fieldset style="box-shadow:0 10px 10px #999;padding: 10px !important;margin: 15px !important;border:0.5px solid gray !important;background-color:#e0e0e0e0;width:1050px;text-align:left;margin-left:15px;margin-right:15px;margin-top:10px;border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
@@ -72,7 +70,7 @@ include "version.php";
 checkSetup();
 // Here you can feel free to disable info-sections by commenting out with // before include
 include "include/txinfo.php";
-include "include/sysinfo.php";
+//include "include/sysinfo.php";
 //include "include/disk.php";
 include "include/gateways.php";
 include "include/lh.php";
