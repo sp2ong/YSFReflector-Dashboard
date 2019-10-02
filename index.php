@@ -45,12 +45,14 @@ include "version.php";
    background:#f0f4c3;
     color: black;
     border-color: #ddd;
+    margin-bottom: 5px;
  }
 .panel-default>.panel-heading-custom2 {
   font: 12pt arial, sans-serif; 
    background:#99a62b;
     color: black;
     border-color: #ddd;
+    margin-bottom: 5px;
  }
 .panel-default>.panel-heading-custom3 {
   font: 12pt arial, sans-serif; 
