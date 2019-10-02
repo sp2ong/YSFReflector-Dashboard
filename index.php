@@ -60,7 +60,7 @@ include "version.php";
  }
 </style>
   </head>
-  <body>
+  <body style="font: 10pt arial, sans-serif;">
 <center> 
   <h3><p>.:&nbsp;&nbsp;<font color=brown><b> <?php echo getConfigItem("Info", "Name", $configs); ?> </b></font> YSF Reflector&nbsp;&nbsp;:.</p></h3>
 </center>
