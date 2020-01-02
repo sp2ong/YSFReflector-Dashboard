@@ -48,16 +48,16 @@ include "version.php";
     margin-bottom: 5px;
  }
 .panel-default>.panel-heading-custom2 {
-  font: 12pt arial, sans-serif; 
+background-image: linear-gradient(to bottom right,#d0e98d, #4e6b00);
    background:#99a62b;
-    color: black;
+    color: white;
     border-color: #ddd;
     margin-bottom: 5px;
  }
 .panel-default>.panel-heading-custom3 {
   font: 12pt arial, sans-serif; 
-   background:#9dc209;
-    color: black;
+  background-image: linear-gradient(to bottom right,#d0e98d, #4e6b00);
+    color: white;
     border-color: #ddd;
  }
 .dataTables_filter input {margin-right: 10px; }
