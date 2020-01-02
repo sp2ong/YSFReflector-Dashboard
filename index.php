@@ -41,14 +41,14 @@ include "version.php";
     <title><?php echo getConfigItem("Info", "Name", $configs); ?> - YSFReflector-Dashboard</title>
 <style>
 .panel-default>.panel-heading-custom {
-  font: 12pt arial, sans-serif; 
-   background:#f0f4c3;
-    color: black;
+  font: 11pt arial, sans-serif; 
+    background-image: linear-gradient(to bottom right,#4e6b00,#d0e98d);
+    color: white;
     border-color: #ddd;
     margin-bottom:5px;
  }
 .panel-default>.panel-heading-custom2 {
-  font: 12pt arial, sans-serif; 
+  font: 11pt arial, sans-serif; 
     background-image: linear-gradient(to bottom right,#4e6b00,#d0e98d);
     color: white;
     border-color: #ddd;
@@ -56,7 +56,7 @@ include "version.php";
 
  }
 .panel-default>.panel-heading-custom3 {
-  font: 12pt arial, sans-serif; 
+  font: 11pt arial, sans-serif; 
     background-image: linear-gradient(to bottom right,#4e6b00,#d0e98d);
     color: white;
     border-color: #ddd;
