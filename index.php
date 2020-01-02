@@ -42,8 +42,8 @@ include "version.php";
 <style>
 .panel-default>.panel-heading-custom {
   font: 12pt arial, sans-serif; 
-   background:#f0f4c3;
-    color: black;
+   background-image: linear-gradient(to bottom right,#d0e98d, #4e6b00);
+    color: white;
     border-color: #ddd;
     margin-bottom: 5px;
  }
